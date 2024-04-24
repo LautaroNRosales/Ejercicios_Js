@@ -4,13 +4,13 @@ let n2 = 25
 let n3 = 50
 let n4 = 45
 if (n1 <= n2) {
-    for ( i = 21; i < 25; i++ )
+    for ( i = n1; i < n2; i++ )
         console.log(i)
 }
 
 console.log()
 
 if (n3 >= n4) {
-    for ( i = 49; i > 45; i-- )
+    for ( i = n3; i > n4; i-- )
     console.log(i)
 }
